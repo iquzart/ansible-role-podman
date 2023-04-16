@@ -1,2 +1,5 @@
 ---
 # defaults file for podman
+
+podman_buildah_enabled: true
+podman_skopeo_enabled: true

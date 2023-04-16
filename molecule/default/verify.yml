@@ -3,8 +3,11 @@
 
 - name: Verify
   hosts: all
-  gather_facts: false
+  gather_facts: true
   tasks:
-  - name: Example assertion
+
+  - name: Check if Podman package is installed
     ansible.builtin.assert:
-      that: true
+      that:
+        - "'podman' in ansible_facts.packages"
+      fail_msg: "Podman is not installed."
