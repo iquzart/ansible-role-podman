@@ -4,10 +4,22 @@ dependency:
 driver:
   name: docker
 platforms:
-  - name: instance
-    image: quay.io/centos/centos:stream8
-    pre_build_image: true
+  - name: rhel9
+    image: registry.access.redhat.com/ubi9/ubi:latest
+    command: /usr/sbin/init
+    privileged: true
+  - name: rhel8
+    image: registry.access.redhat.com/ubi8/ubi:latest
+    command: /usr/sbin/init
+    privileged: true
 provisioner:
   name: ansible
+  config_options:
+    defaults:
+      interpreter_python: auto_silent
+      callbacks_enabled:
+        - timer
+    ssh:
+      pipelining: false
 verifier:
   name: ansible
