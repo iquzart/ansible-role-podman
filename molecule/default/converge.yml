@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include iquzart.podman"
+      include_role:
+        name: "iquzart.podman"
