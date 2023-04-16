@@ -1,8 +1,8 @@
 Podman
 =========
-[![Role Name](https://img.shields.io/ansible/role/61839?label=Role%20Name&logo=ansible&style=flat-square)](https://galaxy.ansible.com/iquzart/podman)
-[![Quality Score](https://img.shields.io/ansible/quality/61839?label=Quality%20Score&logo=ansible&style=flat-square)](https://galaxy.ansible.com/iquzart/podman)
-[![Role Downloads](https://img.shields.io/ansible/role/d/61839?label=Role%20Downloads&logo=ansible&style=flat-square)](https://galaxy.ansible.com/iquzart/podman)
+[![Role Name](https://img.shields.io/ansible/role/62002?label=Role%20Name&logo=ansible&style=flat-square)](https://galaxy.ansible.com/iquzart/podman)
+[![Quality Score](https://img.shields.io/ansible/quality/62002?label=Quality%20Score&logo=ansible&style=flat-square)](https://galaxy.ansible.com/iquzart/podman)
+[![Role Downloads](https://img.shields.io/ansible/role/d/62002?label=Role%20Downloads&logo=ansible&style=flat-square)](https://galaxy.ansible.com/iquzart/podman)
 [![License](https://img.shields.io/:license-mit-blue.svg?style=flat-square)](https://badges.mit-license.org)
 
 
